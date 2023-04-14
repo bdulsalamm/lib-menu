@@ -1,8 +1,3 @@
-# To installing/checking requirements automatically after running the app
-# and then cleaning the CLI before runnung the app
-import subprocess
-import sys
-subprocess.check_call([sys.executable, "-m", "pip", "install", "-r", "requirements.txt"],stdout=subprocess.DEVNULL)
 
 
 from Lib_db_conn import DB_CONN
